@@ -1,0 +1,267 @@
+{
+  "student": {
+    "photo": "Me.jpg",
+    "name": "Nithiphat Intaramongkol",
+    "id": "6630200322",
+    "major": "Computer Science",
+    "previousSchool": "Marie Vithaya School"
+  },
+  "courses": [
+    {
+      "semester": "ภาคต้น ปีการศึกษา 2566",
+      "code": "01355101",
+      "name": "English for Everyday Life",
+      "credits": 0,
+      "grade": "P",
+      "id": "efe7"
+    },
+    {
+      "semester": "ภาคต้น ปีการศึกษา 2566",
+      "code": "01355102",
+      "name": "English for University Life",
+      "credits": 0,
+      "grade": "P",
+      "id": "b66f"
+    },
+    {
+      "semester": "ภาคต้น ปีการศึกษา 2566",
+      "code": "01355103",
+      "name": "English for Job Opportunities",
+      "credits": 3,
+      "grade": "B+",
+      "id": "cbc2"
+    },
+    {
+      "semester": "ภาคต้น ปีการศึกษา 2566",
+      "code": "01417111",
+      "name": "Calculus I",
+      "credits": 3,
+      "grade": "C+",
+      "id": "16e5"
+    },
+    {
+      "semester": "ภาคต้น ปีการศึกษา 2566",
+      "code": "01418111",
+      "name": "Introduction to Computer Science",
+      "credits": 2,
+      "grade": "B",
+      "id": "21e1"
+    },
+    {
+      "semester": "ภาคต้น ปีการศึกษา 2566",
+      "code": "01418112",
+      "name": "Fundamental Programming Concepts",
+      "credits": 3,
+      "grade": "B+",
+      "id": "8204"
+    },
+    {
+      "semester": "ภาคต้น ปีการศึกษา 2566",
+      "code": "01418141",
+      "name": "Intellectual Properties and Professional Ethics",
+      "credits": 3,
+      "grade": "A",
+      "id": "f8b7"
+    },
+    {
+      "semester": "ภาคต้น ปีการศึกษา 2566",
+      "code": "01999021",
+      "name": "Thai Language for Communication",
+      "credits": 3,
+      "grade": "B+",
+      "id": "2fff"
+    },
+    {
+      "semester": "ภาคต้น ปีการศึกษา 2566",
+      "code": "01999111",
+      "name": "Knowledge of the Land",
+      "credits": 2,
+      "grade": "A",
+      "id": "5430"
+    },
+    {
+      "semester": "ภาคต้น ปีการศึกษา 2566",
+      "code": "03751112",
+      "name": "Social and Politics",
+      "credits": 3,
+      "grade": "C+",
+      "id": "fa8f"
+    },
+    {
+      "semester": "ภาคปลาย ปีการศึกษา 2566",
+      "code": "01175125",
+      "name": "Softball for Health",
+      "credits": 1,
+      "grade": "A",
+      "id": "6b51"
+    },
+    {
+      "semester": "ภาคปลาย ปีการศึกษา 2566",
+      "code": "01417322",
+      "name": "Basic Linear Algebra",
+      "credits": 3,
+      "grade": "C+",
+      "id": "06d1"
+    },
+    {
+      "semester": "ภาคปลาย ปีการศึกษา 2566",
+      "code": "01418113",
+      "name": "Computer Programming",
+      "credits": 3,
+      "grade": "B+",
+      "id": "4c81"
+    },
+    {
+      "semester": "ภาคปลาย ปีการศึกษา 2566",
+      "code": "01418131",
+      "name": "Statistical Programming",
+      "credits": 3,
+      "grade": "A",
+      "id": "6df0"
+    },
+    {
+      "semester": "ภาคปลาย ปีการศึกษา 2566",
+      "code": "01418132",
+      "name": "Fundamentals of Computing",
+      "credits": 3,
+      "grade": "B+",
+      "id": "81f9"
+    },
+    {
+      "semester": "ภาคปลาย ปีการศึกษา 2566",
+      "code": "01999041",
+      "name": "Economics for Better Living",
+      "credits": 3,
+      "grade": "B+",
+      "id": "a346"
+    },
+    {
+      "semester": "ภาคปลาย ปีการศึกษา 2566",
+      "code": "03654111",
+      "name": "Aesthetics of Sport",
+      "credits": 3,
+      "grade": "A",
+      "id": "355d"
+    },
+    {
+      "semester": "ภาคต้น ปีการศึกษา 2567",
+      "code": "01174231",
+      "name": "Introduction to Recreation",
+      "credits": 2,
+      "grade": "A",
+      "id": "2420"
+    },
+    {
+      "semester": "ภาคต้น ปีการศึกษา 2567",
+      "code": "01355109",
+      "name": "Essential English Listening-Speaking Skills",
+      "credits": 3,
+      "grade": "A",
+      "id": "aceb"
+    },
+    {
+      "semester": "ภาคต้น ปีการศึกษา 2567",
+      "code": "01418211",
+      "name": "Software Construction",
+      "credits": 3,
+      "grade": "B",
+      "id": "6d8a"
+    },
+    {
+      "semester": "ภาคต้น ปีการศึกษา 2567",
+      "code": "01418231",
+      "name": "Data Structures and Algorithms",
+      "credits": 3,
+      "grade": "B+",
+      "id": "9ae7"
+    },
+    {
+      "semester": "ภาคต้น ปีการศึกษา 2567",
+      "code": "01418233",
+      "name": "Computer Architecture",
+      "credits": 3,
+      "grade": "B+",
+      "id": "1f8f"
+    },
+    {
+      "semester": "ภาคต้น ปีการศึกษา 2567",
+      "code": "01418361",
+      "name": "Introduction to Computer Vision",
+      "credits": 3,
+      "grade": "A",
+      "id": "ca99"
+    },
+    {
+      "semester": "ภาคต้น ปีการศึกษา 2567",
+      "code": "01999012",
+      "name": "Health for Life",
+      "credits": 3,
+      "grade": "A",
+      "id": "1f1e"
+    },
+    {
+      "semester": "ภาคปลาย ปีการศึกษา 2567",
+      "code": "01355108",
+      "name": "English and Culture through Songs",
+      "credits": 3,
+      "grade": "N",
+      "id": "b665"
+    },
+    {
+      "semester": "ภาคปลาย ปีการศึกษา 2567",
+      "code": "01418214",
+      "name": "Practicum in Software Development",
+      "credits": 1,
+      "grade": "N",
+      "id": "8568"
+    },
+    {
+      "semester": "ภาคปลาย ปีการศึกษา 2567",
+      "code": "01418221",
+      "name": "Fundamentals of Database Systems",
+      "credits": 3,
+      "grade": "N",
+      "id": "f01d"
+    },
+    {
+      "semester": "ภาคปลาย ปีการศึกษา 2567",
+      "code": "01418222",
+      "name": "Enterprise Information System",
+      "credits": 3,
+      "grade": "N",
+      "id": "e358"
+    },
+    {
+      "semester": "ภาคปลาย ปีการศึกษา 2567",
+      "code": "01418232",
+      "name": "Algorithm Design and Analysis",
+      "credits": 3,
+      "grade": "N",
+      "id": "fc63"
+    },
+    {
+      "semester": "ภาคปลาย ปีการศึกษา 2567",
+      "code": "01418236",
+      "name": "Operating Systems",
+      "credits": 3,
+      "grade": "N",
+      "id": "698f"
+    },
+    {
+      "semester": "ภาคปลาย ปีการศึกษา 2567",
+      "code": "01418261",
+      "name": "Fundamentals of Artificial Intelligence",
+      "credits": 3,
+      "grade": "N",
+      "id": "c296"
+    },
+    {
+      "semester": "ภาคปลาย ปีการศึกษา 2567",
+      "code": "03752111",
+      "name": "Information Resources for Research",
+      "credits": 1,
+      "grade": "N",
+      "id": "48c5"
+    }
+  ]
+}
