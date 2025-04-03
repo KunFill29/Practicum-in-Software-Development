@@ -1,9 +1,9 @@
 <template>
-  <div class="edit-student-form">
-    <h2 class="text-primary font-weight-bold mb-4">Edit Student Info</h2>
-    <form @submit.prevent="updateStudent" class="bg-white p-4 rounded-lg shadow-sm">
+  <div class="edit-student-form" >
+    <h2 class="font-weight-bold mb-3 mt-3" >Edit Student Info</h2>
+    <form @submit.prevent="updateStudent" class="bg-white p-4 rounded-lg shadow-sm" style="background-color: rgb(157, 192, 139);">
       <!-- Name -->
-      <div class="mb-4">
+      <div class="mb-4" >
         <label for="name" class="form-label font-weight-bold">Name:</label>
         <input
           v-model="editedStudent.name"

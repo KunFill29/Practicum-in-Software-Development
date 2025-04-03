@@ -1,15 +1,18 @@
 <template>
   <div class="container mt-5">
     <!-- Header -->
-    <header class="bg-gradient-primary text-white text-center py-5 mb-5 rounded-lg shadow">
+    <header
+      class="bg-gradient-primary text-white text-center py-5 mb-5 rounded-lg shadow"
+      style="background: linear-gradient(135deg, rgb(157, 192, 139), rgb(39, 57, 28))"
+    >
       <h1 class="display-4 font-weight-bold">Welcome to the Student Information App</h1>
       <p class="lead">Manage and view student and course information with ease.</p>
     </header>
 
     <!-- Student Information Section -->
     <section v-if="student" class="card mb-5 border-0 shadow-lg rounded-lg">
-      <div class="card-body p-5">
-        <h2 class="card-title mb-5 text-primary font-weight-bold">My Information</h2>
+      <div class="card-body p-5" style="background-color: rgb(96, 153, 102)">
+        <h2 class="card-title mb-5 font-weight-bold">My Information</h2>
         <div class="row">
           <div class="col-md-6 text-center">
             <div class="image-grid">
@@ -19,8 +22,8 @@
               <img :src="getImageUrl('Me4.jpg')" alt="Student Photo 4" class="student-img" />
             </div>
           </div>
-          <div class="col-md-6 mt-5">
-            <div class="student-info">
+          <div class="col-md-6 mt-6">
+            <div class="student-info mt-1" style="text-align: left">
               <p class="mb-3"><strong>Name:</strong> {{ student.name }}</p>
               <p class="mb-3"><strong>ID:</strong> {{ student.id }}</p>
               <p class="mb-3"><strong>Major:</strong> {{ student.major }}</p>
@@ -35,9 +38,12 @@
     </section>
 
     <!-- Certificates Section -->
-    <section class="card mb-5 border-0 shadow-lg rounded-lg">
+    <section
+      class="card mb-5 border-0 shadow-lg rounded-lg"
+      style="background-color: rgb(96, 153, 102)"
+    >
       <div class="card-body p-5 text-center">
-        <h3 class="card-title mb-4 text-primary font-weight-bold">My Certificates</h3>
+        <h3 class="card-title mb-4 font-weight-bold">My Certificates</h3>
         <div class="image-grid">
           <img :src="getImageUrl('cer2.jpg')" alt="Certificate 2" class="certificate-img" />
           <img :src="getImageUrl('cer1.jpg')" alt="Certificate 1" class="certificate-img" />
@@ -49,9 +55,14 @@
     </section>
 
     <!-- Navigation Section -->
-    <section class="card border-0 shadow-lg rounded-lg">
+    <section
+      class="card border-0 shadow-lg rounded-lg"
+      style="background-color: rgb(157, 192, 139)"
+    >
       <div class="card-body p-5 text-center">
-        <h3 class="card-title mb-4 text-primary font-weight-bold">What would you like to do next?</h3>
+        <h3 class="card-title mb-4 text-danger font-weight-bold">
+          What would you like to do next?
+        </h3>
         <router-link to="/student-info" class="btn btn-success btn-lg me-3 shadow-lg">
           Go to Student Info
         </router-link>
@@ -64,31 +75,31 @@
 </template>
 
 <script>
-import db from '@/data/db.json';
+import db from '@/data/db.json'
 
 export default {
   name: 'HomePage',
   data() {
     return {
       student: {},
-    };
+    }
   },
   mounted() {
-    this.fetchStudent();
+    this.fetchStudent()
   },
   methods: {
     fetchStudent() {
-      const savedStudent = localStorage.getItem('student');
-      this.student = savedStudent ? JSON.parse(savedStudent) : db.student;
+      const savedStudent = localStorage.getItem('student')
+      this.student = savedStudent ? JSON.parse(savedStudent) : db.student
     },
     goToStudentInfo() {
-      this.$router.push('/student-info');
+      this.$router.push('/student-info')
     },
     getImageUrl(photo) {
-      return `/images/${photo}`;
+      return `/images/${photo}`
     },
   },
-};
+}
 </script>
 
 <style scoped>
@@ -142,8 +153,9 @@ export default {
 }
 
 .student-info p {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   line-height: 1.6;
+  text-align: left;
 }
 
 .btn {

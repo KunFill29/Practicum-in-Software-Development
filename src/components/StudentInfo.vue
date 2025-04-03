@@ -1,6 +1,6 @@
 <template>
-  <div class="student-info-container">
-    <h2 class="mb-4 text-center">Student Information</h2>
+  <div class="student-info-container" style="background-color: rgb(96, 153, 102)">
+    <h2 class="mb-4 text-center ">Student Information</h2>
 
     <!-- Loading State -->
     <div v-if="loading" class="text-center">
@@ -11,7 +11,7 @@
     </div>
 
     <!-- Student Details -->
-    <div v-else class="card shadow-sm">
+    <div v-else class="card shadow-sm" style="background-color: rgb(157, 192, 139);">
       <div class="card-body text-center">
         <img
           :src="getImageUrl('Me2.jpg')"

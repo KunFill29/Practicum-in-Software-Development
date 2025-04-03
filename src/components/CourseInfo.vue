@@ -1,10 +1,10 @@
 <template>
-  <div class="container mt-5">
-    <h2 class="text-primary font-weight-bold mb-4 text-center">Course Information</h2>
+  <div class="container mt-5" >
+    <h2 class=" font-weight-bold mb-4 text-center">Course Information</h2>
 
     <!-- Add Course Form -->
-    <div v-if="isAdding" class="mb-4 p-4 border border-secondary rounded shadow-sm">
-      <h3 class="text-primary font-weight-bold mb-3">Add New Course</h3>
+    <div v-if="isAdding" class="mb-4 p-4 rounded shadow-sm" style="background-color: rgb(96, 153, 102)" >
+      <h3 class="text-danger font-weight-bold mb-3">Add New Course</h3>
       <form @submit.prevent="addCourse">
         <div class="mb-3">
           <label for="newCourseCode" class="form-label">Course Code:</label>
@@ -52,8 +52,8 @@
     </div>
 
     <!-- Edit Course Form -->
-    <div v-if="isEditing" class="mb-4 p-4 border border-secondary rounded shadow-sm">
-      <h3 class="text-primary font-weight-bold mb-3">Edit Course</h3>
+    <div v-if="isEditing" class="mb-4 p-4 rounded shadow-sm" style="background-color: rgb(96, 153, 102);">
+      <h3 class="text-danger font-weight-bold mb-3">Edit Course</h3>
       <form @submit.prevent="handleUpdateCourse">
         <div class="mb-3">
           <label for="editCourseCode" class="form-label">Course Code:</label>
@@ -103,14 +103,14 @@
     <!-- Buttons for Adding and Refreshing -->
     <div class="mb-4 text-center">
       <button class="btn btn-primary me-2" @click="openAddForm" v-if="!isAdding">Add Course</button>
-      <button class="btn btn-info" @click="fetchCourses">Refresh Courses</button>
+      <button class="btn btn-warning" @click="fetchCourses">Refresh Courses</button>
     </div>
 
     <!-- Courses Table -->
-    <div class="card border-0 shadow-sm">
-      <div class="card-body p-0">
-        <table class="table table-hover mb-0">
-          <thead class="bg-primary text-white">
+    <div class="card border-0 shadow-sm" >
+      <div class="card-body p-0" >
+        <table class="table table-hover mb-0" >
+          <thead class="text-white" style="background-color: rgb(96, 153, 102);">
             <tr>
               <th scope="col">Course Code</th>
               <th scope="col">Course Name</th>
@@ -269,6 +269,7 @@ export default {
 <style scoped>
 .container {
   max-width: 1200px;
+  
 }
 
 .card {
@@ -317,5 +318,9 @@ export default {
 
 .form-label {
   font-weight: 600;
+}
+.form-control {
+  max-width: 350px; /* Limit input field width */
+  margin: 0 auto; /* Center input fields */
 }
 </style>

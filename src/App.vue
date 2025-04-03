@@ -1,8 +1,8 @@
 <template>
-  <div id="app">
+  <div id="app" style="background-color: rgb(157, 192, 139)">
     <!-- Optional: Global header or navigation bar -->
     <header>
-      <h1>Student Information App</h1>
+      <h1 >Student Information App</h1>
       <nav>
         <router-link to="/">Home</router-link>
         <router-link to="/student-info">Student Info</router-link>
@@ -11,7 +11,7 @@
     </header>
 
     <!-- The main content area that renders routed components -->
-    <main>
+    <main style="background-color: rgb(157, 192, 139)">
       <router-view></router-view> <!-- Renders the component based on the current route -->
     </main>
   </div>
@@ -32,7 +32,7 @@ export default {
 }
 
 header {
-  background-color: #42b983;
+  background-color: rgb(64, 81, 59);
   color: white;
   padding: 10px;
 }
